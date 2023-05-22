@@ -1,0 +1,20 @@
+[DEFAULT]
+serveraliveinterval = 45
+compression = yes
+compressionlevel = 9
+forwardx11 = yes
+
+[Test]
+test_num = 6
+test_boolean = False
+
+[bitbucket.org]
+user = hg
+test = test_value
+
+[topsecret.server.com]
+port = 50022
+forwardx11 = no
+
+[test_blank]
+
